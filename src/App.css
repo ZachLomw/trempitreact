@@ -52,3 +52,16 @@
     padding: 0 10px;
   }
 }
+
+/* Adjustments for large screens (e.g., 4K) */
+@media (min-width: 1920px) {
+  .App-description {
+    font-size: 1.4em; /* Larger font size for better readability */
+    max-width: 1000px; /* Increase max-width for wider screens */
+    padding: 0 20px;
+  }
+
+  .App-header {
+    padding: 30px;
+  }
+}
