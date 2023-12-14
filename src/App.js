@@ -13,8 +13,6 @@ function App() {
           This practice is particularly prevalent in areas where public transportation 
           is sparse, such as in the West Bank settlements or certain parts of the 
           Golan Heights and Galilee. 
-
-       
         </p>
       </header>
     </div>

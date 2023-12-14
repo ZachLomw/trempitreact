@@ -35,19 +35,17 @@
 /* Responsive design for smaller screens */
 @media (max-width: 768px) {
   .App-description {
+    text-align: left; /* Left align text for better readability on small screens */
     margin: 15px;
     font-size: 1em;
     padding: 0 5%;
-  }
-
-  .App-header {
-    padding: 10px;
   }
 }
 
 /* Additional adjustments for very small screens */
 @media (max-width: 480px) {
   .App-description {
+    text-align: left; /* Left align text for better readability on very small screens */
     font-size: 0.9em;
     padding: 0 10px;
   }
@@ -56,12 +54,13 @@
 /* Adjustments for large screens (e.g., 4K) */
 @media (min-width: 1920px) {
   .App-description {
-    font-size: 1.4em; /* Larger font size for better readability */
-    max-width: 1000px; /* Increase max-width for wider screens */
+    font-size: 1.4em;
+    max-width: 1200px;
     padding: 0 20px;
   }
+}
 
   .App-header {
     padding: 30px;
   }
-}
+
