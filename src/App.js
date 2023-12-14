@@ -1,22 +1,21 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
+        <h1>Understanding Tremp</h1>
+        <p className="App-description">
+          In Israel, the concept of 'Tremp' (תרמפ), derived from the English word 'tramp', 
+          holds a unique cultural significance. Unlike the often negative connotations 
+          associated with hitchhiking in many parts of the world, tremping is a widely 
+          accepted and frequently practiced method of transportation in Israel. 
+          This practice is particularly prevalent in areas where public transportation 
+          is sparse, such as in the West Bank settlements or certain parts of the 
+          Golan Heights and Galilee. 
+
+       
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
       </header>
     </div>
   );
